@@ -6,13 +6,13 @@ License is `CC-BY-SA 3.0`
 
 ## Usage
 
-1. Edit your GRUB config
+1. Edit your GRUB config, as rot
     ```
-    sudo $EDITOR /etc/default/grub
+    $EDITOR /etc/default/grub
     ```
     Edit line that says `set theme=($root)/path/to/theme.txt` and save.
 
-2. Re-generate your config
+2. Re-generate your config, as rot
     ```bash
-    sudo grub-mkconfig > /boot/grub/grub.cfg
+    grub-mkconfig > /boot/grub/grub.cfg
     ```
