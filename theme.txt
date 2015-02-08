@@ -21,24 +21,12 @@
 # THE SOFTWARE.
 
 #general settings
-message-font: "DejaVu Sans Regular 12"
+message-font: "Terminus"
 message-color: "#000"
 message-bg-color: "#fff"
 terminal-box: "terminal_box_*.png"
-terminal-font: "DejaVu Sans Regular 12"
-desktop-color: "#333"
-
-#help bar at the bottom
-+ label {
-	top = 100%-25
-	left = 0
-	width = 100%
-	height = 20
-	text = "@KEYMAP_MIDDLE@"
-	align = "center"
-	font = "DejaVu Sans Regular 10"
-	color = "#FFF"
-}
+terminal-font: "Terminus"
+desktop-color: "#222"
 
 #boot menu
 + boot_menu {
@@ -46,7 +34,7 @@ desktop-color: "#333"
 	width = 80%
 	top = 20%
 	height = 50%
-	item_font = "DejaVu Sans Regular 12"
+	item_font = "Terminus"
 	item_color = "#000"
 	selected_item_font = "DejaVu Sans Bold 14"
 	selected_item_color= "#000"
@@ -68,12 +56,12 @@ desktop-color: "#333"
 	id = "__timeout__"
 	left = 15%
 	top = 80%
-	height = 20
+	height = 12
 	width = 70%
-	font = "DejaVu Sans Regular 12"
-	text_color = "#000"
-	fg_color = "#fff"
-	bg_color = "#6ac"
-	border_color = "#fff"
+	font = "Terminus"
+	text_color = "#bbbbbb"
+	fg_color = "#169281"
+	bg_color = "#202020"
+	border_color = "#575757"
 	text = "@TIMEOUT_NOTIFICATION_LONG@"
 }
